@@ -3819,7 +3819,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.575
+  orthographic size: 10.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4209,6 +4209,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a8a05de0ac134f4f9d01bef6b9da077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachinePixelPerfect
+--- !u!1 &856264525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 856264526}
+  m_Layer: 0
+  m_Name: HeadCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &856264526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856264525}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.117, y: -1.088, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1660252889}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &952431093
 GameObject:
   m_ObjectHideFlags: 0
@@ -6041,7 +6072,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.06513214, y: -1.3921933}
-  m_Size: {x: 1.5532875, y: 3.188321}
+  m_Size: {x: 1.5, y: 3.2}
   m_Direction: 0
 --- !u!50 &1660252887
 Rigidbody2D:
@@ -6059,7 +6090,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 320829df204b55f4fba56ff52db1da03, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6068,7 +6099,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &1660252888
 SpriteRenderer:
@@ -6119,7 +6150,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8447237637920451778, guid: 3c8de2e272abb2f42b820d07d88bd72e, type: 3}
+  m_Sprite: {fileID: -6599241146868015478, guid: 3c8de2e272abb2f42b820d07d88bd72e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6143,6 +6174,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1939712875}
+  - {fileID: 856264526}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1660252890
@@ -6160,7 +6192,9 @@ MonoBehaviour:
   rb: {fileID: 1660252887}
   playerInput: {fileID: 1660252891}
   anim: {fileID: 1660252892}
-  speed: 8
+  playerCollider: {fileID: 1660252886}
+  walkSpeed: 7
+  runSpeed: 11
   jumpForce: 20
   jumpCutMultiplier: 0.5
   normalGravity: 6
@@ -6172,6 +6206,15 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  headCheck: {fileID: 856264526}
+  headCheckRadius: 0.5
+  slideDuration: 0.6
+  slideSpeed: 12
+  slideStopDuration: 0.15
+  slideHeight: 0
+  slideOffset: {x: -0.3214293, y: -1.687795}
+  normalHeight: 0
+  normalOffset: {x: -0.06513214, y: -1.392193}
 --- !u!114 &1660252891
 MonoBehaviour:
   m_ObjectHideFlags: 0
