@@ -15,7 +15,7 @@ public class PlayerIdleState : PlayerState
     {
         base.Update();
 
-        if (JumpPressed) 
+        if (JumpPressed)
         {
             JumpPressed = false;
             player.ChangeState(player.jumpState);
@@ -23,6 +23,10 @@ public class PlayerIdleState : PlayerState
         else if (Mathf.Abs(MoveInput.x) > 0.1f)
         {
             player.ChangeState(player.moveState);
+        }
+        else if (MoveInput.y < -0.1f)
+        {
+            player.ChangeState(player.crouchState);
         }
     }
 
