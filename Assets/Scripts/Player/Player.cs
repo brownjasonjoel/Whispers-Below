@@ -48,8 +48,12 @@ public class Player : MonoBehaviour
 
     [Header("Slide Variables")]
     public float slideDuration = .6f;
+    private bool isSliding;
+    private float slideTimer;
     public float slideSpeed = 12;
     public float slideStopDuration = .15f;
+    private float slideStopTimer;
+    private bool slideInputLock;
 
     public float slideHeight;
     public Vector2 slideOffset;
@@ -82,10 +86,11 @@ public class Player : MonoBehaviour
 
        
 
-        
+        if(!isSliding)
             Flip();
 
         HandleAnimations();
+        
        
     }
 
@@ -141,6 +146,43 @@ public class Player : MonoBehaviour
     {
         anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("yVelocity", rb.linearVelocity.y);
+        anim.SetBool("isSliding", isSliding);
+    }
+
+    void HandleSlide ()
+    {
+        if(isSliding)
+        {
+            slideTimer -= Time.deltaTime;
+            rb.linearVelocity = new Vector2(slideSpeed * facingDirection, rb.linearVelocity.y);
+
+            if(slideTimer <= 0)
+            {
+                isSliding = false;
+                slideStopTimer = slideStopDuration;
+            }
+
+        }
+
+        if(slideStopTimer > 0)
+        {
+            slideStopTimer -= Time.deltaTime;
+            rb. linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        }
+
+
+
+        if (isGrounded && runPressed && moveInput.y < -0.1f && !isSliding && !slideInputLock)
+        { 
+            isSliding = true;
+            slideInputLock = true;
+            slideTimer = slideDuration;        
+        }
+
+        if(slideStopTimer < 0 && moveInput.y >= -0.1f)
+        {
+            slideInputLock = false;
+        }
     }
 
     void Flip()
