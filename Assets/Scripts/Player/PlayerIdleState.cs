@@ -17,7 +17,7 @@ public class PlayerIdleState : PlayerState
     {
         base.Update();
 
-        if(AttackPressed)
+        if(AttackPressed && combat.CanAttack)
         {
             player.ChangeState(player.attackState);
         }

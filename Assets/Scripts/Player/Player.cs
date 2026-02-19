@@ -13,11 +13,8 @@ public class Player : MonoBehaviour
     public PlayerMoveState moveState;
     public PlayerAttackState attackState;
 
-    [Header("Attack Settings")]
-    public int damage;
-    public float attackRadius = 0.5f;
-    public Transform attackPoint;
-    public LayerMask enemyLayer;
+    [Header("Core Components")]
+    public Combat combat;
    
     [Header ("Components")]
     public Rigidbody2D rb;
@@ -179,12 +176,7 @@ public class Player : MonoBehaviour
     {
         attackPressed = value.isPressed;
 
-        Collider2D enemy = Physics2D.OverlapCircle(attackPoint.position, attackRadius, enemyLayer);
-
-        if (enemy != null)
-        {
-            enemy.gameObject.GetComponent<Health>().ChangeHealth(-damage);
-        }
+        
     }
 
     public void OnJump(InputValue value)
@@ -204,7 +196,6 @@ public class Player : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheck.position,groundCheckRadius);
-
-      
+              
     }
 }

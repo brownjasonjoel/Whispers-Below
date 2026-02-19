@@ -4,6 +4,7 @@ public abstract class PlayerState
 {
     protected Player player;
     protected Animator anim;
+    protected Combat combat;
    // protected Rigidbody2D rb;
 
     protected bool JumpPressed { get => player.jumpPressed; set => player.jumpPressed = value;}
@@ -17,6 +18,7 @@ public abstract class PlayerState
     {
         this.player = player;
         this.anim = player.anim;
+        combat = player.combat;
     }
 
 
