@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     [Header("Core Components")]
     public Combat combat;
     public Magic magic;
+    public Health health;
    
     [Header ("Components")]
     public Rigidbody2D rb;
@@ -69,7 +70,7 @@ public class Player : MonoBehaviour
     public float normalHeight;
     public Vector2 normalOffset;
 
-    public int health = 100;
+   //public int health = 100;
 
 
     private void Awake()

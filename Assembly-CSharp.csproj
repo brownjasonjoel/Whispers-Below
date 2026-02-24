@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Player\Spells\TeleportSpellSO.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoveState.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\Player\Spells\HealSpellSO.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttackState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSlideState.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SparkSpellSO.cs" />

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Spells/TeleportSpell")]
+[CreateAssetMenu(menuName = "Spell/TeleportSpell")]
 public class TeleportSpellSO : SpellSO
 {
     [Header("Teleport Settings")]
