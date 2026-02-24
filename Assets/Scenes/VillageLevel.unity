@@ -3086,6 +3086,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &438532678 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7184652353666630331, guid: 91e33044708c4b942a9968ef5a053a28, type: 3}
+  m_PrefabInstance: {fileID: 570212341288598565}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb03f50697b48314ead805bb3cc8ad58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Magic
 --- !u!1 &459367958
 GameObject:
   m_ObjectHideFlags: 0
@@ -8094,9 +8105,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4963805150522851407, guid: 91e33044708c4b942a9968ef5a053a28, type: 3}
-      propertyPath: jumpForce
-      value: 23
-      objectReference: {fileID: 0}
+      propertyPath: magic
+      value: 
+      objectReference: {fileID: 438532678}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8121,7 +8132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4449186350694117022, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: orthographic size
-      value: 10.8
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5245014093172359492, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: m_LocalPosition.x

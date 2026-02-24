@@ -15,9 +15,11 @@ public class Player : MonoBehaviour
     public PlayerCrouchState crouchState;
     public PlayerSlideState slideState;
     public PlayerAttackState attackState;
+    public PlayerSpellcastState spellcastState;
 
     [Header("Core Components")]
     public Combat combat;
+    public Magic magic;
    
     [Header ("Components")]
     public Rigidbody2D rb;
@@ -42,6 +44,7 @@ public class Player : MonoBehaviour
     public bool jumpPressed;
     public bool jumpReleased;
     public bool attackPressed;
+    public bool spellcastPressed;
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -77,6 +80,7 @@ public class Player : MonoBehaviour
         crouchState = new PlayerCrouchState(this);
         slideState = new PlayerSlideState(this);
         attackState = new PlayerAttackState(this);
+        spellcastState = new PlayerSpellcastState(this);
     }
 
     private void Start()
@@ -183,9 +187,9 @@ public class Player : MonoBehaviour
         transform.localScale = new Vector3(facingDirection, 1, 1);
     }
 
-    public void AttackAnimationFinished()
+    public void AnimationFinished()
     {
-        currentState.AttackAnimationFinished();
+        currentState.AnimationFinished();
     }
 
     public void OnMove (InputValue value)
@@ -200,9 +204,12 @@ public class Player : MonoBehaviour
 
     public void  OnAttack (InputValue value)
     {
-        attackPressed = value.isPressed;
+        attackPressed = value.isPressed;  
+    }
 
-        
+    public void  OnSpellcast (InputValue value)
+    {
+        spellcastPressed = value.isPressed;  
     }
 
     public void OnJump(InputValue value)

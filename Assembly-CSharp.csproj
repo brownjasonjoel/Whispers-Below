@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Player\Combat.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerIdleState.cs" />
     <Compile Include="Assets\Scripts\ParalaxManager.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerSpellcastState.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Sound Manager.cs" />
+    <Compile Include="Assets\Scripts\Player\Magic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Traing dummy\Contact.txt" />

@@ -15,7 +15,11 @@ public class PlayerMoveState : PlayerState
     {
         base.Update();
 
-        if (AttackPressed && combat.CanAttack)
+        if (SpellcastPressed && magic.canCast)
+        {
+            player.ChangeState(player.spellcastState);
+        }
+        else if (AttackPressed && combat.CanAttack)
         {
             player.ChangeState(player.attackState);
         }
