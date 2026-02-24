@@ -4,11 +4,13 @@ using UnityEngine;
 public class Magic : MonoBehaviour
 {
     public Player player;
-    public float spellRange;
-    public float SpellCoolDown;
-    public LayerMask obstacleLayer;
+    public SpellSO currentSpell;
 
-    public float playerRadius = 1.5f;
+    [Header("Spark Vaiables")]
+    public GameObject sparkFXPrefab;
+    public int damage;
+    public float damageRadius = 5f;
+    public LayerMask enemyLayer;
 
     public bool canCast => Time.time >= nextCastTime;
     private float nextCastTime;
@@ -22,31 +24,14 @@ public class Magic : MonoBehaviour
 
     private void CastSpell()
     {
-        Teleport();
+        if (!canCast || currentSpell == null)
+            return;
+
+        currentSpell.Cast(player);
+
+
+        nextCastTime = Time.time + currentSpell.coolDown;
     }
 
-    private void Teleport()
-    {
-        Vector2 direction = new Vector2(player.facingDirection, 0);
-        Vector2 targetPosition = (Vector2) player.transform.position + direction * spellRange;
-
-        Collider2D hit = Physics2D.OverlapCircle(targetPosition, playerRadius,obstacleLayer);
-
-        if (hit != null)
-        {
-            float step = 0.1f;
-            Vector2 adjustedPosition = targetPosition;
-
-            while (hit != null && Vector2.Distance(adjustedPosition, player.transform.position) > 0)
-            {
-                adjustedPosition -= direction * step;
-                hit = Physics2D.OverlapCircle(adjustedPosition, playerRadius, obstacleLayer);
-            }
-            targetPosition = adjustedPosition;
-        }
-
-        player.transform.position = targetPosition;
-        nextCastTime = Time.time + SpellCoolDown;
-
-    }
+   
 }
