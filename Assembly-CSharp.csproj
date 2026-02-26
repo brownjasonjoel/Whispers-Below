@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Player\Spells\SpellSO.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSpellcastState.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Player\Spells\SpellUI\SpellUIManager.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCrouchState.cs" />
@@ -83,8 +84,10 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Sound Manager.cs" />
     <Compile Include="Assets\Scripts\Player\Magic.cs" />
+    <Compile Include="Assets\Scripts\Player\Spells\SpellUI\SpellSlot.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Sprites\HUD Inventory\Free 8bit Spells\readme.txt" />
     <None Include="Assets\Sprites\Traing dummy\Contact.txt" />
     <None Include="Assets\Sprites\Traing dummy\License.txt" />
     <None Include="Assets\Sprites\Terrain\LegacyFantasy\Pixel Clouds\Pixel Clouds\LICENSE.txt" />

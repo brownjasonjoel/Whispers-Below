@@ -146,7 +146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   combat: {fileID: 1899094812035345194}
-  magic: {fileID: 0}
+  magic: {fileID: 7184652353666630331}
+  health: {fileID: 8166267734273809492}
   rb: {fileID: 1301471670842154027}
   playerInput: {fileID: 2257628162127800663}
   anim: {fileID: 2565552408150414598}
@@ -180,7 +181,6 @@ MonoBehaviour:
   slideOffset: {x: -0.08, y: -1.75}
   normalHeight: 3.1
   normalOffset: {x: -0.08, y: -1.2}
-  health: 100
 --- !u!1 &299947874266990758
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +308,7 @@ GameObject:
   - component: {fileID: 2565552408150414598}
   - component: {fileID: 1899094812035345194}
   - component: {fileID: 7184652353666630331}
+  - component: {fileID: 8166267734273809492}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -447,12 +448,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Magic
   player: {fileID: 4963805150522851407}
-  spellRange: 5
-  SpellCoolDown: 2
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  playerRadius: 1.5
+  spellUIManager: {fileID: 0}
+  availableSpells:
+  - {fileID: 11400000, guid: ce5f170d6c5bdb74489813a6551c3887, type: 2}
+  - {fileID: 11400000, guid: da737a640cc494e4d92b25a10632b0af, type: 2}
+  - {fileID: 11400000, guid: 62d360d160553864e8a741ff90e903bb, type: 2}
+  currentIndex: 1
+--- !u!114 &8166267734273809492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193123654916459710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14d4701de67f9c4592dfbceb5cdeb93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  health: 10
+  maxHealth: 100
 --- !u!1 &4471061721406723921
 GameObject:
   m_ObjectHideFlags: 0
