@@ -449,10 +449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Magic
   player: {fileID: 4963805150522851407}
   spellUIManager: {fileID: 0}
-  availableSpells:
-  - {fileID: 11400000, guid: ce5f170d6c5bdb74489813a6551c3887, type: 2}
-  - {fileID: 11400000, guid: da737a640cc494e4d92b25a10632b0af, type: 2}
-  - {fileID: 11400000, guid: 62d360d160553864e8a741ff90e903bb, type: 2}
+  availableSpells: []
   currentIndex: 1
 --- !u!114 &8166267734273809492
 MonoBehaviour:
