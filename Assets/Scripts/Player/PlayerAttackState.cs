@@ -13,7 +13,7 @@ public class PlayerAttackState : PlayerState
         player.rb.linearVelocity = new Vector2 (0, player.rb.linearVelocity.y);
     }
 
-    public override void AttackAnimationFinished()
+    public override void AnimationFinished()
     {
        
 

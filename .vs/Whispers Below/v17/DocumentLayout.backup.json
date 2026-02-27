@@ -3,52 +3,44 @@
   "WorkspaceRootPath": "D:\\Whispers Below\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\paralaxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paralaxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\spells\\spellui\\spelluimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\spells\\spellui\\spelluimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\collectables\\loot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\loot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\collectables\\collectableso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\collectableso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\confinerfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\confinerfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\magic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\magic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\spells\\spellso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\spells\\spellso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\spells\\spellui\\spellslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\spells\\spellui\\spellslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playercrouchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercrouchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerspellcaststate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerspellcaststate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,147 +58,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ParalaxManager.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\ParalaxManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ParalaxManager.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\ParalaxManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ParalaxManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Loot.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\Loot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\Loot.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\Loot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectables\\Loot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T21:37:52.284Z",
+              "WhenOpened": "2026-02-26T20:05:23.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SceneChanger.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\SceneChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChanger.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\SceneChanger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneChanger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Title": "CollectableSO.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\CollectableSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\CollectableSO.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\CollectableSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectables\\CollectableSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T18:58:59.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfinerFinder.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\ConfinerFinder.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ConfinerFinder.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\ConfinerFinder.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ConfinerFinder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T18:23:52.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T17:57:12.835Z",
+              "WhenOpened": "2026-02-26T19:54:27.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayerSlideState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerSlideState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerSlideState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerSlideState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerSlideState.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwC0AAAA1AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SpellUIManager.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellUIManager.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellUIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T20:47:42.517Z"
+              "WhenOpened": "2026-02-26T18:42:30.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpellSlot.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellSlot.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellSlot.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAABBwCcAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T18:32:40.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpellSO.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Spells\\SpellSO.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Spells\\SpellSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T22:49:11.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Magic.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Magic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Magic.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Magic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Magic.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAwwCcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T21:43:53.876Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "PlayerJumpState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Title": "Combat.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Combat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Combat.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Combat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Combat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T20:45:29.089Z"
+              "WhenOpened": "2026-02-24T21:22:03.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerCrouchState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerCrouchState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCrouchState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerCrouchState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCrouchState.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PlayerSpellcastState.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T22:50:22.187Z"
+              "WhenOpened": "2026-02-24T21:15:07.009Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "PlayerMoveState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerMoveState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMoveState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerMoveState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMoveState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T21:14:19.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "PlayerState.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState.cs",
               "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T21:11:51.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerIdleState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerIdleState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerIdleState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerIdleState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerIdleState.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAABBwCAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T21:11:25.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PlayerAttackState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerAttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAttackState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerAttackState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAttackState.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T21:05:22.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
               "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAwwE4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAwwN4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T20:35:55.149Z"
             }
