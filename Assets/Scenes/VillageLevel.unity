@@ -3583,6 +3583,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1344730065918943438, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_text
+      value: Spark LV. 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2317769799285949733, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
       propertyPath: m_Name
       value: Spark Loot
@@ -3662,13 +3666,13 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 46c5fe219c85f694ea95e13319db8ae8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.15
+  m_Volume: 0.011
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 90
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -5380,6 +5384,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1274759479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 57167559457787225, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_Name
+      value: Teleport LV. 1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9153395
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.268904
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688902848830140135, guid: 46d04278809d850489c55af580ccc575, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46d04278809d850489c55af580ccc575, type: 3}
 --- !u!1 &1275800139
 GameObject:
   m_ObjectHideFlags: 0
@@ -5515,6 +5576,22 @@ PrefabInstance:
     - target: {fileID: 6959164526787530420, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
       propertyPath: m_Name
       value: SpellSlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963919984761781611, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
+      propertyPath: normalColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963919984761781611, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
+      propertyPath: normalColor.b
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963919984761781611, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
+      propertyPath: normalColor.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963919984761781611, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
+      propertyPath: normalColor.r
+      value: 0.69803923
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7190,6 +7267,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpellSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 8963919984761781611, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
+      propertyPath: normalColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963919984761781611, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
+      propertyPath: normalColor.b
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963919984761781611, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
+      propertyPath: normalColor.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963919984761781611, guid: 9a1edeec4355ea047ac0a20a39b43b3a, type: 3}
+      propertyPath: normalColor.r
+      value: 0.69803923
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8541,7 +8634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3987792281379558632, guid: 91e33044708c4b942a9968ef5a053a28, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.95
+      value: -9.97
       objectReference: {fileID: 0}
     - target: {fileID: 3987792281379558632, guid: 91e33044708c4b942a9968ef5a053a28, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8654,6 +8747,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1344730065918943438, guid: 4a53656323c32c2479d291902a3dca09, type: 3}
+      propertyPath: m_text
+      value: 'Heal LV. 1 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812029192920512503, guid: 4a53656323c32c2479d291902a3dca09, type: 3}
+      propertyPath: collectableSO
+      value: 
+      objectReference: {fileID: 11400000, guid: ce5f170d6c5bdb74489813a6551c3887, type: 2}
     - target: {fileID: 2317769799285949733, guid: 4a53656323c32c2479d291902a3dca09, type: 3}
       propertyPath: m_Name
       value: Heal Loot
@@ -8741,7 +8842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8251545620844945159, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.45
+      value: -8.47
       objectReference: {fileID: 0}
     - target: {fileID: 8325363069287028645, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9073,3 +9174,4 @@ SceneRoots:
   - {fileID: 2290484968880027900}
   - {fileID: 877074780}
   - {fileID: 907092421}
+  - {fileID: 1274759479}
