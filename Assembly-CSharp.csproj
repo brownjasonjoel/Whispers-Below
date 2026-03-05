@@ -76,15 +76,16 @@
     <Compile Include="Assets\Scripts\Player\PlayerSpellcastState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SpellUI\SpellUIManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWallJumpState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy_Damage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\Enemy\State.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
@@ -99,14 +100,18 @@
     <Compile Include="Assets\Scripts\Player\PlayerCrouchState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scripts\Enemy\StateMachine.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\TeleportSpellSO.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoveState.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\Enemy\PatrolState.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\HealSpellSO.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy_Senses.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttackState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSlideState.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SparkSpellSO.cs" />
@@ -120,6 +125,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyConfig.cs" />
     <Compile Include="Assets\Scripts\Sound Manager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\Player\Magic.cs" />
@@ -127,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\HUD Inventory\Free 8bit Spells\readme.txt" />
+    <None Include="Assets\Sprites\EnemySprites\Kobold Warrior\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />

@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\Whispers Below\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\player\\playerwallslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerwallslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\enemy\\enemy_senses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_senses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\patrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\patrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\player\\playerwalljumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerwalljumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerspellcaststate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerspellcaststate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy_damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy_Damage.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy_Damage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Damage.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy_Damage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Damage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T21:18:01.122Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T22:13:25.591Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -43,79 +73,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerWallSlideState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerWallSlideState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWallSlideState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerWallSlideState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWallSlideState.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBYAAABIAAAAAAAAAA==",
+              "Title": "Enemy_Senses.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy_Senses.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Senses.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy_Senses.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Senses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T19:33:23.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerJumpState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T18:52:10.038Z",
+              "WhenOpened": "2026-03-05T21:59:48.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PlayerWallJumpState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerWallJumpState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWallJumpState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerWallJumpState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWallJumpState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Title": "EnemyConfig.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\EnemyConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyConfig.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\EnemyConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T18:46:44.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerSpellcastState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:15:07.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T21:11:51.525Z",
+              "WhenOpened": "2026-03-05T21:49:52.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwF0AAAA4AAAAAAAAAA==",
+              "Title": "PatrolState.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\PatrolState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\PatrolState.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\PatrolState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\PatrolState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T20:35:55.149Z",
+              "WhenOpened": "2026-03-05T21:33:32.287Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "State.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\State.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\State.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\State.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\State.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T21:28:22.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\StateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\StateMachine.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\StateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\StateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T21:25:04.557Z"
             }
           ]
         }
