@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     public PlayerSlideState slideState;
     public PlayerAttackState attackState;
     public PlayerSpellcastState spellcastState;
+    public PlayerWallJumpState wallJumpState;
+    public PlayerWallSlideState wallSlideState;
 
     [Header("Core Components")]
     public Combat combat;
@@ -53,6 +55,12 @@ public class Player : MonoBehaviour
     public LayerMask groundLayer;
     public bool isGrounded;
 
+    [Header("Wall Check")]
+    public Transform wallCheck;
+    public float wallCheckRadius;
+    public LayerMask wallLayer;
+    public bool isTouchingWall;
+
     [Header("Crouch Check")]
     public Transform headCheck; 
     public float headCheckRadius = 0.2f;
@@ -82,6 +90,8 @@ public class Player : MonoBehaviour
         slideState = new PlayerSlideState(this);
         attackState = new PlayerAttackState(this);
         spellcastState = new PlayerSpellcastState(this);
+        wallJumpState = new PlayerWallJumpState(this);
+        wallSlideState = new PlayerWallSlideState(this);
     }
 
     private void Start()
@@ -110,10 +120,8 @@ public class Player : MonoBehaviour
         currentState.FixedUpdate();
        
         CheckGrounded(); 
-
+        CheckForWalls();
         
-
-       
     }
 
     public void ChangeState(PlayerState newState)
@@ -157,6 +165,11 @@ public class Player : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position,groundCheckRadius,groundLayer);
 
+    }
+
+    void CheckForWalls()
+    {
+        isTouchingWall = Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
     }
 
     public bool CheckForCieling()
@@ -233,7 +246,9 @@ public class Player : MonoBehaviour
     {
         if (value.isPressed)
         {
-           jumpPressed = true;
+            if(isGrounded && !CheckForCieling() ||isTouchingWall )
+                jumpPressed = true;
+
             jumpReleased = false;
         }
         else // jump is released
@@ -249,6 +264,9 @@ public class Player : MonoBehaviour
 
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(headCheck.position, headCheckRadius);
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(wallCheck.position, wallCheckRadius);
 
     }
 }
