@@ -10,6 +10,11 @@ public class StateMachine
         CurrentState.Enter();
     }
 
-
+    public void ChangeState(State newState)
+    {
+        CurrentState.Exit();
+        CurrentState = newState;
+        CurrentState.Enter();
+    }
 
 }

@@ -67,9 +67,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerJumpState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy States\PatrolState.cs" />
     <Compile Include="Assets\Scripts\Collectables\Loot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Player\Combat.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy States\ChaseState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerIdleState.cs" />
     <Compile Include="Assets\Scripts\ParalaxManager.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SpellSO.cs" />
@@ -84,8 +86,8 @@
     <Compile Include="Assets\Scripts\Enemy\Enemy_Damage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy States\IdleState.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
-    <Compile Include="Assets\Scripts\Enemy\State.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
@@ -109,7 +111,7 @@
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Scripts\Enemy\PatrolState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy States\State.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\HealSpellSO.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Senses.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttackState.cs" />
