@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerJumpState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy States\PatrolState.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy States\Enemy_Combat.cs" />
     <Compile Include="Assets\Scripts\Collectables\Loot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Player\Combat.cs" />
@@ -130,6 +131,7 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyConfig.cs" />
     <Compile Include="Assets\Scripts\Sound Manager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy States\MeleeAtackState.cs" />
     <Compile Include="Assets\Scripts\Player\Magic.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SpellUI\SpellSlot.cs" />
   </ItemGroup>

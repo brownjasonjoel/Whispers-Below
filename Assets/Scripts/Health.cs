@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
 
         if (health > maxHealth)
         {
-            maxHealth = health;
+            health = maxHealth;
         }
         else if (health <= 0)
         {

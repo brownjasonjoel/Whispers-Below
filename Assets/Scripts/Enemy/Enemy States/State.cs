@@ -8,6 +8,7 @@ public abstract class State
     protected virtual string AnimBoolName => null;
     protected EnemyConfig config;
     protected Enemy_Senses senses;
+    protected Enemy_Combat combat;
     protected StateMachine stateMachine;
     protected Enemy enemy;
 
@@ -17,6 +18,7 @@ public abstract class State
         anim = enemy.Anim;
         config = enemy.Config;
         senses = enemy.Senses;
+        combat = enemy.Combat;
         stateMachine = enemy.StateMachine;
         this.enemy = enemy;
     }
@@ -30,6 +32,8 @@ public abstract class State
     public virtual void Update() { }
 
     public virtual void FixedUpdate() { }
+
+    public virtual void OnAnimationFinished() { }
 
     public virtual void Exit() 
     {

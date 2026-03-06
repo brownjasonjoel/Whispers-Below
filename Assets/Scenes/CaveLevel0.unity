@@ -4637,6 +4637,7 @@ GameObject:
   - component: {fileID: 447021909}
   - component: {fileID: 447021908}
   - component: {fileID: 447021914}
+  - component: {fileID: 447021915}
   m_Layer: 7
   m_Name: Kobold
   m_TagString: Enemy
@@ -4837,6 +4838,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &447021915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447021907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68fb6e8914ead904b88a2b93daf5e863, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy_Combat
+  attackPoint: {fileID: 451508059}
 --- !u!1 &451508058
 GameObject:
   m_ObjectHideFlags: 0
@@ -5391,7 +5405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4449186350694117022, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: orthographic size
-      value: 10.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5245014093172359492, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5996,8 +6010,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150758667080165431, guid: 91e33044708c4b942a9968ef5a053a28, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1140644923}
   m_SourcePrefab: {fileID: 100100000, guid: 91e33044708c4b942a9968ef5a053a28, type: 3}
+--- !u!1 &1140644922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150758667080165431, guid: 91e33044708c4b942a9968ef5a053a28, type: 3}
+  m_PrefabInstance: {fileID: 1140644921}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1140644923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140644922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14d4701de67f9c4592dfbceb5cdeb93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  health: 10
+  maxHealth: 10
 --- !u!1 &1254450758
 GameObject:
   m_ObjectHideFlags: 0

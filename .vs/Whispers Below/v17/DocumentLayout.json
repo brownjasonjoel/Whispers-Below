@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "D:\\Whispers Below\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\enemy\\enemy states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\enemy\\enemy states\\chasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy states\\chasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\chasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy states\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\enemy\\enemy states\\enemy_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\enemy_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy_senses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_senses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy states\\meleeatackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\meleeatackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy_senses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_senses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy states\\patrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\patrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy states\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\enemy\\enemy_damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Enemy_Damage.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy_Damage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Damage.cs",
@@ -63,15 +75,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IdleState.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\IdleState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\IdleState.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\IdleState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy States\\IdleState.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Enemy_Combat.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\Enemy_Combat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\Enemy_Combat.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\Enemy_Combat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy States\\Enemy_Combat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T20:51:08.569Z",
+              "WhenOpened": "2026-03-06T21:48:45.173Z",
               "EditorCaption": ""
             },
             {
@@ -81,18 +93,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Health.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:46:11.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MeleeAtackState.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\MeleeAtackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\MeleeAtackState.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\MeleeAtackState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy States\\MeleeAtackState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:34:26.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IdleState.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\IdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\IdleState.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\IdleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy States\\IdleState.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwDMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T20:51:08.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "State.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\State.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\State.cs",
               "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\State.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy States\\State.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T20:34:53.372Z"
+              "WhenOpened": "2026-03-06T20:34:53.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "PatrolState.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\PatrolState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\PatrolState.cs",
@@ -110,40 +162,39 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\ChaseState.cs",
               "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\ChaseState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy States\\ChaseState.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T20:30:16.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Enemy_Senses.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy_Senses.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Senses.cs",
               "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy_Senses.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Senses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T21:59:48.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T21:59:48.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EnemyConfig.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\EnemyConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyConfig.cs",
               "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\EnemyConfig.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T21:49:52.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "StateMachine.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\StateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\StateMachine.cs",
@@ -155,15 +206,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
               "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T22:13:25.591Z"
+              "WhenOpened": "2026-03-05T22:13:25.591Z",
+              "EditorCaption": ""
             }
           ]
         }
