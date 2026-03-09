@@ -24,4 +24,8 @@ public class EnemyConfig : ScriptableObject
     public int meleeDamage = 2;
     public float meleeCooldown = 1;
 
+    [Header("Damaged")]
+    public float knockbackDuration = .2f;
+    public float knockbackForce = 30;
+
 }

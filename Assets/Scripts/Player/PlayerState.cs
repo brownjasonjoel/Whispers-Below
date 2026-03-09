@@ -5,6 +5,7 @@ public abstract class PlayerState
     protected Player player;
     protected Animator anim;
     protected Combat combat;
+    protected Damage damage;
     protected Magic magic;
    // protected Rigidbody2D rb;
 
@@ -21,6 +22,7 @@ public abstract class PlayerState
         this.player = player;
         this.anim = player.anim;
         combat = player.combat;
+        damage = player.damage;
         magic = player.magic;
     }
 

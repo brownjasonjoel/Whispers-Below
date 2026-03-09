@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Kobold
   m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
   turnThreshold: 1.25
-  patrolSpeed: 5
+  patrolSpeed: 4
   groundCheckDistance: 0.7
   wallCheckDistance: 0.5
   groundLayer:
@@ -27,3 +27,8 @@ MonoBehaviour:
   targetLayer:
     serializedVersion: 2
     m_Bits: 256
+  meleeRange: 1.75
+  meleeDamage: 2
+  meleeCooldown: 1
+  knockbackDuration: 0.2
+  knockbackForce: 30

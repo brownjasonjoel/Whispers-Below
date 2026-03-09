@@ -26,10 +26,10 @@ public class Enemy_Combat : MonoBehaviour
             return;
         }
 
-        Health health = GetComponent<Health>();
+        Health health = hit.GetComponentInChildren<Health>();
         if (health != null)
         {
-            health.ChangeHealth(-config.meleeDamage);
+            health.ChangeHealth(-config.meleeDamage, transform.position);
         }
     }
 
