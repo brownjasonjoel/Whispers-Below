@@ -348,7 +348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4449186350694117022, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: orthographic size
-      value: 10.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5245014093172359492, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4757,7 +4757,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Damage
   enemy: {fileID: 447021909}
   health: {fileID: 447021916}
-  deathParts: []
+  deathParts:
+  - {fileID: 8243258767450804319, guid: 5d87d1b8a487f3149ab0b97337f63ab4, type: 3}
+  - {fileID: 822377205327787027, guid: 71dce4cfc6fb72d4ca2ba19913bc9b2f, type: 3}
+  - {fileID: 7807371726883658949, guid: 60e6d8b62da0d884eaef0709735114cd, type: 3}
+  - {fileID: 55627106839948546, guid: 813eabb657c8bfd46bc33c8122103eb4, type: 3}
+  - {fileID: 2280333911356775246, guid: d5082c20d94f8c44c97458dde9d62ae9, type: 3}
+  - {fileID: 4512532489959779754, guid: 6ae0aee4782eda947abd2d66fa421123, type: 3}
   spawnForce: 5
   torque: 5
   lifeTime: 2
