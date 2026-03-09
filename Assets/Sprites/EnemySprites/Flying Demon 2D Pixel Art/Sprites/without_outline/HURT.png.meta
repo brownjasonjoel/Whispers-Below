@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,7 +83,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -112,12 +112,12 @@ TextureImporter:
       name: HURT_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 1
-        width: 64
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 79
+        height: 69
+      alignment: 9
+      pivot: {x: 0.3306878, y: 0.44884506}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: HURT_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 7
-        width: 63
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 79
+        y: 0
+        width: 79
+        height: 69
+      alignment: 9
+      pivot: {x: 0.33, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,12 +156,12 @@ TextureImporter:
       name: HURT_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 7
-        width: 63
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 158
+        y: 0
+        width: 79
+        height: 69
+      alignment: 9
+      pivot: {x: 0.33, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: HURT_3
       rect:
         serializedVersion: 2
-        x: 243
-        y: 1
-        width: 63
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 237
+        y: 0
+        width: 79
+        height: 69
+      alignment: 9
+      pivot: {x: 0.33, y: 0.44}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c9d55ea6886488c48963be9a2d493830
     internalID: 0
     vertices: []
     indices: 
@@ -208,7 +208,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":79.0,"y":69.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       HURT_0: 3571635775238715396
       HURT_1: -6552392919759675800
