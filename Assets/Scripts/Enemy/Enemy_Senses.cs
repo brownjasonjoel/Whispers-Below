@@ -5,7 +5,7 @@ public class Enemy_Senses : MonoBehaviour
     [SerializeField] private Enemy enemy;
     [SerializeField] private EnemyConfig config;
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private Transform wallCheck;
+    [SerializeField] private Transform[] wallCheck;
     [SerializeField] private Transform attackPoint;
 
     public bool IsAtCliff()
@@ -15,7 +15,18 @@ public class Enemy_Senses : MonoBehaviour
 
     public bool IsHittingWall()
     {
-        return Physics2D.Raycast(wallCheck.position, Vector2.down, config.wallCheckDistance, config.wallLayer);
+        Vector2 dir = Vector2.right * enemy.FacingDirection;
+
+        foreach (Transform check in wallCheck)
+        {
+          bool hitwall = Physics2D.Raycast(check.position, dir, config.wallCheckDistance, config.wallLayer);
+
+            if (hitwall)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     public Transform GetChaseTarget()
@@ -46,6 +57,18 @@ public class Enemy_Senses : MonoBehaviour
         return distance <= config.meleeRange;
     }
 
+    public bool IsInShootingRange(Transform target)
+    {
+        if(!target)
+        {
+            return false;
+        }
+
+        float distance =Vector2.Distance(target.position, attackPoint.position);
+
+        return distance <= config.rangedRange;
+    }
+
     private void OnDrawGizmosSelected()
     {
         //groundCheck
@@ -54,7 +77,11 @@ public class Enemy_Senses : MonoBehaviour
 
         //wallChck
         Gizmos.color = Color.blue;
-        Gizmos.DrawLine(wallCheck.position, wallCheck.position + Vector3.right * enemy.FacingDirection * config.wallCheckDistance);
+        Vector3 dir = Vector2.right * enemy.FacingDirection;
+        foreach (Transform check in wallCheck)
+        {
+            Gizmos.DrawLine(check.position, check.position + dir * config.wallCheckDistance);
+        }
 
         //Chase Check
         Gizmos.color = Color.red;
@@ -63,6 +90,10 @@ public class Enemy_Senses : MonoBehaviour
         //Melee Check
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(attackPoint.position, config.meleeRange);
+
+        //Ranged Check
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(attackPoint.position, config.rangedRange);
     }
 
 }

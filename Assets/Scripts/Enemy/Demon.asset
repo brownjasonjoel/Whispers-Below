@@ -23,12 +23,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   chaseSpeed: 7
-  chaseRange: 7
+  chaseRange: 9
   targetLayer:
     serializedVersion: 2
     m_Bits: 256
-  meleeRange: 1.75
-  meleeDamage: 2
-  meleeCooldown: 1
+  meleeRange: 0
+  meleeDamage: 0
+  meleeCooldown: 0
+  rangedRange: 7
+  rangedDamage: 1
+  rangedCooldown: 2
+  projectilePrefab: {fileID: 7412271332001665021, guid: 08c7fb77d7b54ad4b8e512c8b1897a25, type: 3}
+  projectileSpeed: 12
+  projectileLifetime: 3
   knockbackDuration: 0.2
   knockbackForce: 30
