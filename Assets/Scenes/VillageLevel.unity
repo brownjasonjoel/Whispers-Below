@@ -8826,7 +8826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4449186350694117022, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: orthographic size
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5245014093172359492, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8834,7 +8834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5245014093172359492, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.918901
+      value: -5.118899
       objectReference: {fileID: 0}
     - target: {fileID: 5589991154343714211, guid: 7eb02b1f205465d488aae52f90870dd3, type: 3}
       propertyPath: Target.TrackingTarget
@@ -9169,6 +9169,7 @@ SceneRoots:
   - {fileID: 570212341288598565}
   - {fileID: 8112579411122072059}
   - {fileID: 1498352503}
+  - {fileID: 907092421}
   - {fileID: 619394802}
   - {fileID: 1275800141}
   - {fileID: 1168637864}
@@ -9181,5 +9182,4 @@ SceneRoots:
   - {fileID: 1614363684}
   - {fileID: 2290484968880027900}
   - {fileID: 877074780}
-  - {fileID: 907092421}
   - {fileID: 1274759479}
