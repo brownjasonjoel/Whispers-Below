@@ -74,7 +74,6 @@
     <Compile Include="Assets\Scripts\Player\Combat.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy States\ChaseState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerIdleState.cs" />
-    <Compile Include="Assets\Scripts\ParalaxManager.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SpellSO.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSpellcastState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />

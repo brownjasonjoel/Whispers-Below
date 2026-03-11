@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paralaxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\player\\magic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\magic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\collectables\\collectableso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\collectableso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\collectables\\loot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectables\\loot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Magic.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Magic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Magic.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Magic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Magic.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAIAwwEAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T21:01:43.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Loot.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\Loot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\Loot.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\Loot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectables\\Loot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:51:25.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollectableSO.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\CollectableSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\CollectableSO.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\CollectableSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectables\\CollectableSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:51:16.038Z"
             },
             {
               "$type": "Document",
@@ -44,14 +81,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParalaxManager.cs",
               "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\ParalaxManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ParalaxManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:43:17.682Z",
+              "WhenOpened": "2026-03-11T20:44:49.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerState.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState.cs",
@@ -60,43 +97,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T17:39:06.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:38:15.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Damage.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Damage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Damage.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Damage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Damage.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:37:48.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Health.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Health.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAABBwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T18:34:00.17Z",
-              "EditorCaption": ""
             }
           ]
         }

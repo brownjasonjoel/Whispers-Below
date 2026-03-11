@@ -18,6 +18,7 @@ public class Magic : MonoBehaviour
     public bool canCast => Time.time >= nextCastTime;
     private float nextCastTime;
 
+
     private void Start()
     {
         spellUIManager.ShowSpells(availableSpells);

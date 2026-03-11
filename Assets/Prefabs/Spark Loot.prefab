@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9413b6107f418ef4886269dfb201a714, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Loot
-  collectableSO: {fileID: 11400000, guid: da737a640cc494e4d92b25a10632b0af, type: 2}
+  collectableSO: {fileID: 11400000, guid: 62d360d160553864e8a741ff90e903bb, type: 2}
   anim: {fileID: 8778817292830602703}
   itemMessage: {fileID: 1344730065918943438}
 --- !u!1 &5586381719430091317
@@ -367,7 +367,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Loot
+  m_text: Teleport LV. 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
