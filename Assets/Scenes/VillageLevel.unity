@@ -197,6 +197,67 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.466968, y: 27.013552}
   m_EdgeRadius: 0
+--- !u!1001 &102823399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1812029192920512503, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: collectableSO
+      value: 
+      objectReference: {fileID: 11400000, guid: da737a640cc494e4d92b25a10632b0af, type: 2}
+    - target: {fileID: 2317769799285949733, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_Name
+      value: Spark Loot
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 235.69394
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.991901
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7058005389726410395, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cc80403638ad7fc439a1bc4a629fdf13, type: 3}
 --- !u!1 &217184947
 GameObject:
   m_ObjectHideFlags: 0
@@ -9315,7 +9376,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.95
+  orthographic size: 10.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -9345,9 +9406,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Magic
   player: {fileID: 4831015938023734378}
   spellUIManager: {fileID: 1601604756}
-  availableSpells:
-  - {fileID: 11400000, guid: ce5f170d6c5bdb74489813a6551c3887, type: 2}
-  currentIndex: 1
+  availableSpells: []
+  currentIndex: 0
 --- !u!212 &7383151295256287730
 SpriteRenderer:
   serializedVersion: 2
@@ -9832,9 +9892,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1869532758}
+  - {fileID: 8112579411122072059}
   - {fileID: 1357924584253533432}
   - {fileID: 3512445874739390669}
-  - {fileID: 8112579411122072059}
   - {fileID: 1498352503}
   - {fileID: 907092421}
   - {fileID: 619394802}
@@ -9847,3 +9907,4 @@ SceneRoots:
   - {fileID: 575195107065515180}
   - {fileID: 1601604755}
   - {fileID: 1614363684}
+  - {fileID: 102823399}
