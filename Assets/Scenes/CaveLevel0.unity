@@ -388,11 +388,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6872923553278870459, guid: 2105087aff3c88c489e16f10249ac8c0, type: 3}
       propertyPath: health
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6872923553278870459, guid: 2105087aff3c88c489e16f10249ac8c0, type: 3}
       propertyPath: maxHealth
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6393,13 +6393,13 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6582c4babe55e06429199400a3b4c572, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.011
+  m_Volume: 0.002
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 90
+  Priority: 30
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

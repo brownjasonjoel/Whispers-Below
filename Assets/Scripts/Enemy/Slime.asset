@@ -15,7 +15,7 @@ MonoBehaviour:
   turnThreshold: 1.25
   patrolSpeed: 3
   groundCheckDistance: 0.7
-  wallCheckDistance: 0.5
+  wallCheckDistance: 1.5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

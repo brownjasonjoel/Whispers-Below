@@ -3656,13 +3656,13 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 46c5fe219c85f694ea95e13319db8ae8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.011
+  m_Volume: 0.002
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 90
+  Priority: 31
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -8725,7 +8725,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!1001 &1615945012847530958
 PrefabInstance:

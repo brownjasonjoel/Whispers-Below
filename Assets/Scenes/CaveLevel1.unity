@@ -149,13 +149,13 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6582c4babe55e06429199400a3b4c572, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.011
+  m_Volume: 0.002
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 90
+  Priority: 30
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -256,6 +256,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 517298698822566104, guid: 5c30885c89efadb42a98fad62d81f537, type: 3}
+      propertyPath: wallCheck.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 517298698822566104, guid: 5c30885c89efadb42a98fad62d81f537, type: 3}
+      propertyPath: 'wallCheck.Array.data[0]'
+      value: 
+      objectReference: {fileID: 40153093}
+    - target: {fileID: 4842164658065013656, guid: 5c30885c89efadb42a98fad62d81f537, type: 3}
+      propertyPath: health
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842164658065013656, guid: 5c30885c89efadb42a98fad62d81f537, type: 3}
+      propertyPath: maxHealth
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6041399472969866301, guid: 5c30885c89efadb42a98fad62d81f537, type: 3}
       propertyPath: m_LocalPosition.x
       value: 149.39156
@@ -305,6 +321,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30885c89efadb42a98fad62d81f537, type: 3}
+--- !u!4 &40153093 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7692275383816546836, guid: 5c30885c89efadb42a98fad62d81f537, type: 3}
+  m_PrefabInstance: {fileID: 40153092}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &212074457
 GameObject:
   m_ObjectHideFlags: 0
@@ -12445,6 +12466,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kobold
       objectReference: {fileID: 0}
+    - target: {fileID: 2618733095963624762, guid: 3355098d23abd0f47b2e1e5e959efa4c, type: 3}
+      propertyPath: health
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618733095963624762, guid: 3355098d23abd0f47b2e1e5e959efa4c, type: 3}
+      propertyPath: maxHealth
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4777533623009830303, guid: 3355098d23abd0f47b2e1e5e959efa4c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 262.73532
@@ -12498,6 +12527,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2051204696620661082, guid: 01fd0b68e84405e4884a94e5fcaadd01, type: 3}
+      propertyPath: health
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2051204696620661082, guid: 01fd0b68e84405e4884a94e5fcaadd01, type: 3}
+      propertyPath: maxHealth
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3734206421809030695, guid: 01fd0b68e84405e4884a94e5fcaadd01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.529533
