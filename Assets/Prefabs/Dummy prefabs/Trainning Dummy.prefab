@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7304448831829964248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7389355031154279252}
+  m_Layer: 7
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7389355031154279252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7304448831829964248}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.64, y: -0.34, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6511911745301120157}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8179682810574467766
 GameObject:
   m_ObjectHideFlags: 0
@@ -14,6 +45,9 @@ GameObject:
   - component: {fileID: 8164583137326917258}
   - component: {fileID: 725467367634980917}
   - component: {fileID: 3071954792852935411}
+  - component: {fileID: 7113034750533101387}
+  - component: {fileID: 3055216965861865092}
+  - component: {fileID: 258035867574340034}
   m_Layer: 7
   m_Name: Trainning Dummy
   m_TagString: Untagged
@@ -33,7 +67,9 @@ Transform:
   m_LocalPosition: {x: 228.91, y: -10.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7796009487069344518}
+  - {fileID: 7389355031154279252}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4763235699040919062
@@ -129,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14d4701de67f9c4592dfbceb5cdeb93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  health: 0
+  health: 10
   maxHealth: 10
 --- !u!70 &725467367634980917
 CapsuleCollider2D:
@@ -180,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6094dfe810b334a49a75c99e3304c894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  anim: {fileID: 221188588275521482}
+  enemy: {fileID: 0}
   health: {fileID: 8164583137326917258}
   deathParts:
   - {fileID: 7653687728022939002, guid: 0d043399278b61e4b82bc58ca93659de, type: 3}
@@ -191,3 +227,91 @@ MonoBehaviour:
   spawnForce: 10
   torque: 10
   lifeTime: 3
+--- !u!114 &7113034750533101387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179682810574467766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60eb354b82330e143a79227414a1b416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy_Senses
+  enemy: {fileID: 3055216965861865092}
+  config: {fileID: 11400000, guid: fcdcb30480e5d8149bcca1e78eef9d21, type: 2}
+  groundCheck: {fileID: 7796009487069344518}
+  wallCheck: []
+  attackPoint: {fileID: 7389355031154279252}
+--- !u!114 &3055216965861865092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179682810574467766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28825f59c160e340859b7bfa5ed7695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  Config: {fileID: 11400000, guid: fcdcb30480e5d8149bcca1e78eef9d21, type: 2}
+--- !u!50 &258035867574340034
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179682810574467766}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!1 &9154275541257520911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7796009487069344518}
+  m_Layer: 7
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7796009487069344518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9154275541257520911}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6511911745301120157}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

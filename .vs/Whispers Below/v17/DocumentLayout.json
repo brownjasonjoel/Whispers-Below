@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\Whispers Below\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\enemy\\enemy states\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\enemy\\enemy states\\patrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy states\\patrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Whispers Below\\Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73\\Editor\\GridEditorUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73\\Editor\\GridEditorUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\player\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,6 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "State.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\State.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\State.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\State.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy States\\State.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAwwBwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T21:09:24.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatrolState.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\PatrolState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy States\\PatrolState.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Enemy\\Enemy States\\PatrolState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy States\\PatrolState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T20:57:59.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GridEditorUtility.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73\\Editor\\GridEditorUtility.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73\\Editor\\GridEditorUtility.cs",
@@ -74,12 +108,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73\\Editor\\GridEditorUtility.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwCMAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T20:52:58.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T20:52:58.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerMoveState.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerMoveState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMoveState.cs",
@@ -87,12 +120,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMoveState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T19:11:02.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T19:11:02.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerIdleState.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerIdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerIdleState.cs",
@@ -104,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Loot.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\Loot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\Loot.cs",
@@ -116,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SpellSO.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Spells\\SpellSO.cs",
@@ -128,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CollectableSO.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Collectables\\CollectableSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectables\\CollectableSO.cs",
@@ -140,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Magic.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Magic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Magic.cs",
@@ -152,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SpellUIManager.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellUIManager.cs",
@@ -164,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SpellSlot.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Spells\\SpellUI\\SpellSlot.cs",
@@ -176,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "SparkSpellSO.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Spells\\SparkSpellSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Spells\\SparkSpellSO.cs",
@@ -188,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "PlayerSpellcastState.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerSpellcastState.cs",
@@ -200,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
