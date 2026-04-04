@@ -6409,6 +6409,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551523010}
   m_CullTransparentMesh: 1
+--- !u!1 &1592494737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8179682810574467766, guid: c14aa36c1c0db8f44bd2bb0abd5d1da5, type: 3}
+  m_PrefabInstance: {fileID: 1615945012847530958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1592494744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592494737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28825f59c160e340859b7bfa5ed7695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  Config: {fileID: 11400000, guid: fcdcb30480e5d8149bcca1e78eef9d21, type: 2}
 --- !u!1 &1601604751
 GameObject:
   m_ObjectHideFlags: 0
@@ -8731,6 +8749,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3071954792852935411, guid: c14aa36c1c0db8f44bd2bb0abd5d1da5, type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1592494744}
     - target: {fileID: 6511911745301120157, guid: c14aa36c1c0db8f44bd2bb0abd5d1da5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 228.91
@@ -8778,7 +8800,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8179682810574467766, guid: c14aa36c1c0db8f44bd2bb0abd5d1da5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1592494744}
   m_SourcePrefab: {fileID: 100100000, guid: c14aa36c1c0db8f44bd2bb0abd5d1da5, type: 3}
 --- !u!114 &1619473425386140915
 MonoBehaviour:
