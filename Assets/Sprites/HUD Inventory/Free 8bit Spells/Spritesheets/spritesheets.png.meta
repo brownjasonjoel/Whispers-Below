@@ -298,7 +298,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheets_9
+      name: Icon_Spark2
       rect:
         serializedVersion: 2
         x: 64
@@ -694,7 +694,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheets_27
+      name: Icon_Teleport2
       rect:
         serializedVersion: 2
         x: 32
@@ -782,7 +782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheets_31
+      name: Icon_Heal2
       rect:
         serializedVersion: 2
         x: 16
@@ -1326,8 +1326,11 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Icon_Heal: 456130898
+      Icon_Heal2: 1081188300
       Icon_Spark: 34430266
+      Icon_Spark2: -110263123
       Icon_Teleport: -1838551592
+      Icon_Teleport2: -872440018
       spritesheets_0: -9055209025805820190
       spritesheets_1: -298060735
       spritesheets_10: 112210672
@@ -1348,10 +1351,8 @@ TextureImporter:
       spritesheets_24: 30358769
       spritesheets_25: -1021055227
       spritesheets_26: 615584536
-      spritesheets_27: -872440018
       spritesheets_29: 241952611
       spritesheets_3: -1596051803
-      spritesheets_31: 1081188300
       spritesheets_32: 973083555
       spritesheets_33: 847447521
       spritesheets_34: -124524777
@@ -1379,7 +1380,6 @@ TextureImporter:
       spritesheets_6: 1789090830
       spritesheets_7: 1410562854
       spritesheets_8: 995025834
-      spritesheets_9: -110263123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

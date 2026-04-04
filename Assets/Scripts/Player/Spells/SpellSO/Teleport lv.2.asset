@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ce5e4b25e9a6348a557ec6add1c314, type: 3}
   m_Name: Teleport lv.2
   m_EditorClassIdentifier: Assembly-CSharp::TeleportSpellSO
-  spellName: Teleport Lv. 1
+  itemName: Teleport LV2
+  icon: {fileID: -872440018, guid: feb3e209830ef824ba6eca203345f829, type: 3}
   coolDown: 1.5
-  icon: {fileID: 0}
-  range: 8
+  range: 15
   playerRadius: 1.5
   obstacleLayer:
     serializedVersion: 2

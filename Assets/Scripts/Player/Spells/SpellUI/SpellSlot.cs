@@ -1,10 +1,15 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using System.Collections;
 
 public class SpellSlot : MonoBehaviour
 {
+    [Header ("Refrences")]
     public Image iconImage;
     public GameObject highlight;
+    [SerializeField] private TMP_Text spellText;
+    [SerializeField] private Image cooldownOverlay;
 
     public SpellSO AssignedSpell {  get; private set; }
     [SerializeField] private Color normalColor;
@@ -12,6 +17,9 @@ public class SpellSlot : MonoBehaviour
     private Vector3 normalScale = Vector3.one;
     private Vector3 highlightScale = Vector3.one * 1.2f;
 
+    [Header("Pop Settings")]
+    [SerializeField] private float popScale = 1.3f;
+    [SerializeField] private float popDuration = .15f;
 
     public void SetSpell(SpellSO spellSO)
     {
@@ -19,6 +27,7 @@ public class SpellSlot : MonoBehaviour
 
         if (spellSO != null)
         {
+            cooldownOverlay.sprite = spellSO.icon;
             iconImage.sprite = spellSO.icon;
             iconImage.gameObject.SetActive(true);
         }
@@ -29,6 +38,7 @@ public class SpellSlot : MonoBehaviour
             iconImage.gameObject.SetActive(false);
         }
 
+        cooldownOverlay.fillAmount = 0;
         SetHighlight(false);
     }
 
@@ -36,7 +46,62 @@ public class SpellSlot : MonoBehaviour
     {
         highlight.SetActive(active);
 
-        iconImage.color = active ? normalColor : highlightColor;
+        iconImage.color = active ? highlightColor : normalColor;
         iconImage.rectTransform.localScale = active ? highlightScale : normalScale;
+
+        if(active && AssignedSpell != null)
+        {
+            spellText.text = AssignedSpell.itemName;
+        }
+
+        spellText.enabled = active;
+    }
+
+    public void TriggerCooldown(float cooldownTimer)
+    {
+        StartCoroutine(CooldownRoutine(cooldownTimer));
+    }
+
+    private IEnumerator CooldownRoutine(float duration)
+    {
+        cooldownOverlay.fillAmount = 1;
+        float elapsed = 0;
+
+        while(elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            cooldownOverlay.fillAmount = 1 - (elapsed / duration);
+            yield return null;
+        }
+
+        cooldownOverlay.fillAmount = 0;
+        yield return StartCoroutine(PopEffect());
+    }
+
+    private IEnumerator PopEffect()
+    {
+        
+        float elapsed = 0;
+        float halfDuration = popDuration / 2;
+
+        while( elapsed < halfDuration )
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / halfDuration;
+            iconImage.rectTransform.localScale = Vector3.Lerp(normalScale,Vector3.one * popScale, t);
+            yield return null;
+        }
+
+       elapsed = 0;
+
+        while (elapsed < halfDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / halfDuration;
+            iconImage.rectTransform.localScale = Vector3.Lerp(Vector3.one * popScale, normalScale, t);
+            yield return null;
+        }
+
+        iconImage.rectTransform.localScale = normalScale;
     }
 }
