@@ -4995,37 +4995,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1150166693
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1150166694}
-  m_Layer: 0
-  m_Name: Level 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1150166694
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1150166693}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 139.60315, y: -46.03722, z: 0.78087}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1168637862
 GameObject:
   m_ObjectHideFlags: 0
@@ -9958,7 +9927,6 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1275800141}
   - {fileID: 1168637864}
-  - {fileID: 1150166694}
   - {fileID: 1206828889}
   - {fileID: 1742301690}
   - {fileID: 575195107065515180}
