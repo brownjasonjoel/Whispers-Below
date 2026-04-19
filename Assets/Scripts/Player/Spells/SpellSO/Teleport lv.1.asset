@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TeleportSpellSO
   itemName: 
   icon: {fileID: -1838551592, guid: feb3e209830ef824ba6eca203345f829, type: 3}
+  itemSprite: {fileID: -8040672147021824394, guid: ccdb881de8985de42896c687ea826605, type: 3}
   coolDown: 1
   range: 10
   playerRadius: 1.5
