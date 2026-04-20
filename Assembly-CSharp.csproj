@@ -118,6 +118,7 @@
     <Compile Include="Assets\Scripts\Enemy\Enemy States\State.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\HealSpellSO.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Senses.cs" />
+    <Compile Include="Assets\Scripts\Chest.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttackState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSlideState.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SparkSpellSO.cs" />
