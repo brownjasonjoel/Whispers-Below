@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
   turnThreshold: 1.25
   patrolSpeed: 3
-  groundCheckDistance: 0.7
+  groundCheckDistance: 1.4
   wallCheckDistance: 0.5
   groundLayer:
     serializedVersion: 2

@@ -7,7 +7,6 @@ public class ChaseState : State
     
     public ChaseState(Enemy enemy) : base(enemy) { }
 
-
     public override void FixedUpdate()
     {
         //1. check for target
