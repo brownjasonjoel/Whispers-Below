@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   Config: {fileID: 11400000, guid: adf6d240d156dde429de241d22d970f7, type: 2}
+  clickMe: 0
 --- !u!114 &5617459559169696149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,7 +248,8 @@ MonoBehaviour:
   enemy: {fileID: 5535004273975086174}
   config: {fileID: 11400000, guid: adf6d240d156dde429de241d22d970f7, type: 2}
   groundCheck: {fileID: 1212902150757221934}
-  wallCheck: []
+  wallCheck:
+  - {fileID: 2413086836580049862}
   attackPoint: {fileID: 2707553350389524042}
 --- !u!114 &1312820348529787395
 MonoBehaviour:
@@ -319,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 6806450510101199382}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.64, y: -3.28, z: 0}
+  m_LocalPosition: {x: 0.4, y: -3.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

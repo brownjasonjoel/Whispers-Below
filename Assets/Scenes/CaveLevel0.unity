@@ -382,6 +382,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5617459559169696149, guid: 2105087aff3c88c489e16f10249ac8c0, type: 3}
+      propertyPath: wallCheck.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5840473152162994024, guid: 2105087aff3c88c489e16f10249ac8c0, type: 3}
       propertyPath: m_Name
       value: Zombie
@@ -31120,7 +31124,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 17
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 17
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -31170,7 +31174,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 11
-      m_TileSpriteIndex: 11
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -31439,10 +31443,10 @@ Tilemap:
     m_Data: {fileID: 25463841821560881, guid: d0ce2743ae10bf24cb7a9b1b90563abc, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -7905333367202948552, guid: d0ce2743ae10bf24cb7a9b1b90563abc, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 7956783001899245331, guid: 078c2dce7aa9af04fb6e3a87c95a49ce, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 2586731884540615046, guid: 078c2dce7aa9af04fb6e3a87c95a49ce, type: 3}
   - m_RefCount: 2
@@ -31451,8 +31455,8 @@ Tilemap:
     m_Data: {fileID: 8149421812589528730, guid: d0ce2743ae10bf24cb7a9b1b90563abc, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 4787410197666347720, guid: d0ce2743ae10bf24cb7a9b1b90563abc, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 7956783001899245331, guid: 078c2dce7aa9af04fb6e3a87c95a49ce, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 5503387414646797366, guid: 078c2dce7aa9af04fb6e3a87c95a49ce, type: 3}
   - m_RefCount: 1

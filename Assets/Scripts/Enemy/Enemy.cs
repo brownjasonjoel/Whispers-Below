@@ -24,6 +24,15 @@ public class Enemy : MonoBehaviour
         Combat = GetComponent<Enemy_Combat>();
     }
 
+    [InspectorButton("GiveImpulseVert")]
+    public bool clickMe;
+
+    public void GiveImpulseVert()
+    {
+        this.RB.AddForce(Vector2.up * 3, ForceMode2D.Impulse);
+    }
+
+
     public void Start()
     {
         StateMachine.Initialize(new PatrolState(this));
