@@ -17,7 +17,7 @@ MonoBehaviour:
   itemSprite: {fileID: -8040672147021824394, guid: ccdb881de8985de42896c687ea826605, type: 3}
   coolDown: 1.5
   damage: 5
-  radius: 10
+  radius: 15
   sparkFXPrefab: {fileID: 5241680279072954075, guid: 5ba00719e5db0c34ab9677d3bcbfa27f, type: 3}
   enemyLayer:
     serializedVersion: 2

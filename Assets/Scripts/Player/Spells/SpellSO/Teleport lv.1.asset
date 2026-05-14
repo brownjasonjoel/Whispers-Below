@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ce5e4b25e9a6348a557ec6add1c314, type: 3}
   m_Name: Teleport lv.1
   m_EditorClassIdentifier: Assembly-CSharp::TeleportSpellSO
-  itemName: 
+  itemName: Teleport LV 1
   icon: {fileID: -1838551592, guid: feb3e209830ef824ba6eca203345f829, type: 3}
   itemSprite: {fileID: -8040672147021824394, guid: ccdb881de8985de42896c687ea826605, type: 3}
   coolDown: 1
