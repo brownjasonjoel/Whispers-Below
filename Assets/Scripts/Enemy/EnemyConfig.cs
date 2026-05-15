@@ -19,7 +19,7 @@ public class EnemyConfig : ScriptableObject
     public float chaseRange = 5f;
     public LayerMask targetLayer;
 
-    [Header("Attack")]
+    [Header("Melee Attack")]
     public float meleeRange = 1.2f;
     public int meleeDamage = 2;
     public float meleeCooldown = 1;

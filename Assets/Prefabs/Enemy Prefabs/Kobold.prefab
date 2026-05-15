@@ -149,7 +149,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &6069790461798469635
 CapsuleCollider2D:
@@ -201,6 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   Config: {fileID: 11400000, guid: 7dc0dd087f783a649b8d1025bfdcea2e, type: 2}
+  clickMe: 0
 --- !u!114 &6430837116800442917
 MonoBehaviour:
   m_ObjectHideFlags: 0
