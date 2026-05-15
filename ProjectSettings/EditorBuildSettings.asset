@@ -23,6 +23,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CaveLevel2.unity
     guid: cef01861edb0d3b4c8ee74189130cf16
+  - enabled: 1
+    path: Assets/Scenes/CaveLevel3.unity
+    guid: 74deb3c99e8e8f04babe8b130ec83183
+  - enabled: 1
+    path: Assets/Scenes/The Final Boss Level.unity
+    guid: f54d2e289a471dd4d94fceb2518762bf
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: ee4136690fd59424f95bbe3a8c5b7f08
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
