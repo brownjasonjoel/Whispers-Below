@@ -1627,7 +1627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JumpFail
   resawnPoint: {x: -21.24, y: -5.81}
-  player: {fileID: 0}
+  player: {fileID: 5186548238433959885, guid: f5bcbff8b89708d47b4af136a1187ac0, type: 3}
 --- !u!61 &83628932
 BoxCollider2D:
   m_ObjectHideFlags: 0
