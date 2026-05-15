@@ -30689,7 +30689,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 256
+  Priority: 125
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -32536,7 +32536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Chest
   anim: {fileID: 2793784930163842254}
   lootTable:
-  - {fileID: 11400000, guid: ce5f170d6c5bdb74489813a6551c3887, type: 2}
+  - {fileID: 11400000, guid: 1e72bb9bd73a2c047bef8eec660d50d3, type: 2}
   lootPrefab: {fileID: 4491325634696727283, guid: 0559fb979bc947e4d90585de40d143f6, type: 3}
   spawnDelay: 0.2
   launchForce: 20

@@ -80,6 +80,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Scripts\EndGameTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\SpellUI\SpellUIManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWallJumpState.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy States\State.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\EndButton.cs" />
     <Compile Include="Assets\Scripts\Player\Spells\HealSpellSO.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Senses.cs" />
     <Compile Include="Assets\Scripts\Chest.cs" />

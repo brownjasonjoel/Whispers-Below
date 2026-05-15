@@ -6,7 +6,7 @@ public class AutoScroll : MonoBehaviour
 {
     float speed = 100.0f;
     float textPosBegin = -596.0f;
-    float boundaryTextPosEnd = 2636.0f;
+    public float boundaryTextPosEnd = 2636.0f;
     RectTransform myGameObjectTransform;
     [SerializeField] TextMeshProUGUI mainText;
     

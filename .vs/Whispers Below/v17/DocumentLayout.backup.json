@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Whispers Below\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\crystal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crystal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\autoscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\autoscroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\mainmenu\\endbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu\\endbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\destroyportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|d:\\whispers below\\assets\\scripts\\mainmenu\\contiune button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu\\contiune button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\endgametrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endgametrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19A2901-1007-7498-D0B8-ACDB39C49BE3}|Assembly-CSharp.csproj|D:\\Whispers Below\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,44 +47,81 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Crystal.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Crystal.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Crystal.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Crystal.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Crystal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Title": "AutoScroll.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\AutoScroll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AutoScroll.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\AutoScroll.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AutoScroll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T18:01:06.683Z",
+              "WhenOpened": "2026-05-15T21:45:19.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Health.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\Health.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAAABAAAAAAAAAA==",
+              "Title": "EndButton.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\MainMenu\\EndButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu\\EndButton.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\MainMenu\\EndButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu\\EndButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T17:55:45.265Z",
+              "WhenOpened": "2026-05-15T21:18:54.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DestroyPortal.cs",
-              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\DestroyPortal.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyPortal.cs",
-              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\DestroyPortal.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DestroyPortal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "Contiune Button.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\MainMenu\\Contiune Button.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu\\Contiune Button.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\MainMenu\\Contiune Button.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu\\Contiune Button.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T17:42:03.492Z"
+              "WhenOpened": "2026-05-15T21:18:16.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "EndGameTrigger.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\EndGameTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EndGameTrigger.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\EndGameTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EndGameTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T20:43:49.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SceneChanger.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\SceneChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChanger.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\SceneChanger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneChanger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T20:14:33.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Whispers Below\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T20:01:17.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Whispers Below\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
